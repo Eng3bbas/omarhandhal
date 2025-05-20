@@ -1,0 +1,327 @@
+.style01{
+    text-align: center; /* محاذة النص */
+    margin: 0px auto; /* الهوامش الخارجية */
+    max-width: 500px; /* عرض الصفحة */
+    padding: 10px; /* الهوامش الداخلية */
+}
+.style02{
+    padding: 10px 3px;
+    text-align: center;
+    width: 80%;
+    margin: 5px auto;
+    background: white;
+    color: #03a9f4;
+    font-size: large;
+    font-weight: bold;
+    font-family: auto;
+    border: 1px solid #03a9f4;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #03a9f4;
+}
+.style03{
+    display: grid;
+    grid-template-areas: 
+    'main main main main main'
+    'right right left left left'
+    ;
+    grid-gap: 10px;
+    margin: 50px auto;
+    max-width: 500px;
+}
+.style03 div{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.main{
+    grid-area: main;
+}
+.right{
+    grid-area: right;
+}
+.left{
+    grid-area: left;
+}
+.style04{
+    background: rgb(195, 165, 230);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: auto;
+    padding: 12px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid rgb(224, 162, 214);
+    cursor: pointer;
+}
+.style04:hover{
+    background: white;
+    color: rgb(241, 167, 167);
+}
+.style05{
+    text-decoration: none;
+    background: #85ac7e;
+    color: white;
+    font-size: large;
+    font-family: auto;
+    font-weight: bold;
+    padding: 12px;
+    height: 50%;
+    display: block;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid #98e496;
+}
+.style05:hover{
+    background: white;
+    color: #85e9af;
+}
+.style06{
+    text-decoration: none;
+    background: rgb(238, 181, 181);
+    color: white;
+    font-size: large;
+    font-family: auto;
+    font-weight: bold;
+    padding: 12px;
+    height: 50%;
+    display: block;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid rgb(180, 128, 128);
+}
+.style06:hover{
+    background: white;
+    color: rgb(230, 144, 144);
+}
+.style07{
+    font-size: large;
+    font-family: auto;
+    font-weight: bold;
+    color: #c273b1;
+    text-shadow: 1px 1px 10px #03a9f4;
+}
+.style08{
+    font-size: 20px;
+    border: 1px solid #03a9f4;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    color: #03a9f4;
+}
+.style09{
+    font-size: 20px;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    color: red;
+}
+.style10{
+    font-size: 20px;
+    border: 1px solid #f130dd;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    color: #f130dd;
+}
+.style11{
+    font-size: 20px;
+    border: 1px solid burlywood;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    color: brown;
+}
+.style12{
+    font-size: 20px;
+    border: 1px solid #1ca149;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    color: #209229;
+}
+.style13{
+    
+    height: 99%;
+    width: 99%;
+    position: absolute;
+    background-size: cover;
+    filter: blur(10px);
+}
+.style14{
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    max-width: 500px;
+    margin: 0px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background: #0000004c; */
+    padding: 10px 30px;
+}
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+.style15{
+    font-weight: bold;
+    color: #f00;
+    text-decoration: underline;
+}
+.style16{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: auto;
+    color: #080;
+
+}
+.style17{
+    direction: rtl;
+    width: 115%;
+    padding: 10px 100px 10px 0px;
+    background: #03a9f4;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+.style18{
+    color: rgb(229, 232, 235);
+}
+.style19{
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 30px;
+    border:1px solid #03a9f4;
+    padding:10px;
+    font-weight: bold;
+    font-size: large;
+    max-width: 500px;
+    cursor: pointer;
+
+}
+.style20{
+    color: #03a9f4;
+    text-decoration: none;
+}
+.style21{
+    text-align: center;
+    border:1px solid #03a9f4;
+background: #03a9f4;
+color: antiquewhite;
+margin: 30px auto;
+padding:10px;
+font-weight: bold;
+font-size: large;
+max-width: 500px;
+cursor: pointer;
+}
+.style21:hover{
+    
+background: #fcfdfd;
+color: rgb(144, 158, 219);
+
+
+}
+.style22{
+        font-size:60px !important;
+    
+}
+.style23{
+    text-decoration: none;
+}
+.style24{
+    width:90%;
+    padding:10px 5px;
+    font-weight: bold;
+font-size: large;
+direction: rtl;
+height: 200px;
+color: rgb(144, 158, 219);
+border:1px solid #03a9f4;
+border-radius: 10px;
+resize:none;
+
+}
+.style25{
+    width:100%;
+    direction: rtl;
+    text-align: center;
+    font-size:large;
+    font-weight:bold;
+    font-family:auto;
+ 
+
+}
+.style25 tr th{
+    border:1px solid black;
+}
+.style25 tr td{
+    border:1px solid black;
+}
+.style26{
+    width:100%;
+    direction: rtl;
+    text-align: center;
+    font-size:large;
+    font-weight:bold;
+    font-family:auto;
+    color:#f00;
+ 
+
+}
+.style27{
+
+    padding: 10px 3px;
+    text-align: center;
+    width: 80%;
+    margin: 5px auto;
+    background: white;
+    color: #03a9f4;
+    font-size: large;
+    font-weight: bold;
+    font-family: auto;
+    border: 1px solid #03a9f4;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #03a9f4;
+}
+.style28{
+    text-decoration: none;
+    background: #138ee0;
+    color: white;
+    font-size: large;
+    font-family: auto;
+    font-weight: bold;
+    padding: 12px;
+    height: 90%;
+    display: block;
+    border-radius: 90px;
+    cursor: pointer;
+    border: 1px solid #98e496;
+    width: 110%;
+
+}
+.style29{
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(4, 102, 105);
+    color:white;
+    font-family: Verdana;
+    font-size: 13px;
+
+}
+.style30{
+    direction: rtl;
+    width: 114%;
+    padding: 10px 100px 10px 0px;
+    background: #03a9f4;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+
+
+}
